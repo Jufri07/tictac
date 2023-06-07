@@ -81,6 +81,10 @@ ul {
   margin-left: 20px;
 }
 
+html {
+  background-color: rgb(20, 15, 8);
+}
+
 /* this is a duplicate */
 /* * {
   box-sizing: border-box;
