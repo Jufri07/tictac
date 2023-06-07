@@ -18,7 +18,9 @@ export default function Board() {
   }
 
   return (
+
     <>
+      <h1>Choose a square to start!</h1>
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)}/>
         <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
@@ -35,8 +37,11 @@ export default function Board() {
         <Square value={squares[8]} onSquareClick={() => handleClick(8)}/>
       </div>
     </>
+
   );
 }
 
-//next: Lifting state up - useState(Array(9).fill(null) done//
-//to code what happens when a square is clicked, to put value X, 0 or null//
+//next: Now that your state handling is in the Board component//
+//the parent Board component passes props to the child Square //
+//components so that they can be displayed correctly.//
+//handleClick already done on each squares//
