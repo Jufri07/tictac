@@ -85,3 +85,9 @@ ul {
 html {
   background-color: rgb(20, 15, 8);
 }
+
+.status {
+  color: white;
+  font-size: xx-large;
+  font-family: cursive;
+}
